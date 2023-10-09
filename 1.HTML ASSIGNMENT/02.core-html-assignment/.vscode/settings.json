@@ -1,0 +1,6 @@
+{
+    "editor.acceptSuggestionOnEnter": "on",
+    "files.exclude": {
+        "**/node_modules": true
+    }
+}
