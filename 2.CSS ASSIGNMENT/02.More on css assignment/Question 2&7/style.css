@@ -1,0 +1,28 @@
+div{
+    margin: auto;
+}
+
+.course{
+    background-color: rgb(0, 255, 115);
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px;
+    width: 160px;
+    
+}
+
+.course img{
+    width: 160px;
+    border-radius: 10px;
+    display: block;
+}
+
+.course p{
+    font-size: 12px;
+    display: inline-block;
+}
+
+/* For question 7 */
+div:hover{
+    opacity: 0.5;
+}

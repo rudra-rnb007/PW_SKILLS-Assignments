@@ -1,0 +1,25 @@
+/* Reset default margin and padding */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Style nav bar  */
+nav{
+    background-color: rgb(75, 159, 255);
+    overflow: hidden;
+}
+
+/* style nav bar links  */
+nav a{
+    color: white;
+    float: left;  /* display will be by default block as float is given */
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+    background-color: rgba(35, 85, 150, 0.671);
+}
