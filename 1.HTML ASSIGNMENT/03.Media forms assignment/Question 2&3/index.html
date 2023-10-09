@@ -1,0 +1,21 @@
+<!-- Q: Use video and audio tags to display video and audio with the playback, audio controls
+Modify the previous assignment so that the audio and video play automatically as the page is loaded and they should play infinitely -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+<body style="text-align: center;">
+    <header style="text-align: center; color: rgb(110, 42, 165);">
+        <h1>Media</h1>
+        <hr>
+    </header>
+    <h2 style="background-color: blue; display: inline-block;">Video</h2>
+    <video src="./src/video.mp4" width="600px" controls muted autoplay loop type="video/mp4" controlslist="nodownload" style="margin: auto; display: block;"></video>
+    <!-- I have added no download attribute and also made it center -->
+    <h2 style="background-color: aqua;" >Audio</h2>
+    <audio src="./src/audio.mp3" controls muted autoplay loop type="audio/mp3" preload="auto" style="margin: auto; display: block;"></audio>
+</body>
+</html>

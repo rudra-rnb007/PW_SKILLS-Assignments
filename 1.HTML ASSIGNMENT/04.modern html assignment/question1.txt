@@ -1,0 +1,30 @@
+List out the features of HTML5
+
+Ans: 
+Semantic Elements: HTML5 introduced semantic elements like <header>, <nav>, <article>, <section>, <footer>, and <aside>, which provide more meaningful structure to web documents.
+
+Audio and Video: Built-in <audio> and <video> elements allow seamless embedding of multimedia content without the need for third-party plugins like Flash.
+
+Canvas: The <canvas> element enables dynamic, scriptable rendering of 2D graphics and animations within the browser.
+
+Geolocation: HTML5 provides the Geolocation API, allowing websites to request and access a user's geographic location, which is useful for location-based services.
+
+Local Storage: The Web Storage API provides local storage options (localStorage and sessionStorage) to store data on the client side, improving web application performance and offline capabilities.
+
+Web Workers: Web Workers enable multi-threaded JavaScript execution, enhancing performance and responsiveness by offloading heavy tasks to background threads.
+
+Drag and Drop: HTML5 includes native support for drag-and-drop interactions, simplifying user interface development.
+
+Form Enhancements: HTML5 introduces new form input types such as email, url, date, and number, along with validation attributes, making it easier to create and validate web forms.
+
+Scalable Vector Graphics (SVG): SVG support allows for the integration of vector graphics directly into web documents, providing high-quality graphics that can be scaled without loss of quality.
+
+New APIs: HTML5 introduced a range of new JavaScript APIs, including the History API, Web Storage API, and more, which expand the capabilities of web applications.
+
+Improved Performance: Many features of HTML5 are designed to improve web page loading times and overall performance, including asynchronous script loading.
+
+Responsive Web Design: HTML5 complements responsive web design techniques, making it easier to create websites that adapt to various screen sizes and orientations.
+
+Security Enhancements: HTML5 includes security features like the <iframe sandbox> attribute and Content Security Policy (CSP) to mitigate potential security risks.
+
+Enhanced Audio and Video Control: HTML5 provides native APIs for controlling audio and video playback, enabling developers to create custom multimedia experiences.

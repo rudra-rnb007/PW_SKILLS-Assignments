@@ -1,0 +1,68 @@
+<!-- Q: Create a web page that highlights the features of HTML5. Use appropriate semantic tags to structure the content and showcase at least three key features of HTML5 with explanations. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+    <style>
+        table,th{border:1px solid black;}
+        th{height: 80px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">The Features of Semantic Tags</h1>
+    </header>
+    <hr>
+    <nav style="text-align: center;">
+        <ul>
+            <li style="display: inline;"><a href="#">Canvas</a></li>
+            <li style="display: inline;"><a href="#">Media</a></li>
+            <li style="display: inline;"><a href="#">Geo-Location API</a></li>            
+        </ul>
+    </nav>
+    <hr>
+    <main style="text-align: center;">
+        <h2>some semantic elements that can be used to define different parts of a web page:</h2>
+        <table style="width: 100%;">
+            <tr>
+                <th colspan="2">&lt;header&gt;</th>
+                
+            </tr>
+            <tr>
+                <th colspan="2" style="height: 25px;">&lt;nav&gt;</th>
+            </tr>
+            <tr>
+                <th>&lt;section&gt;</th>
+                <th rowspan="2">&lt;aside&gt;</th>
+            </tr>
+            <tr>
+                <th>&lt;article&gt;</th>
+            </tr>
+            <tr>
+                <th colspan="2">&lt;footer&gt;</th>
+            </tr>
+        </table>
+    </main>
+    <section>
+        <h1>Canvas</h1>
+        <p>The <code>&lt;canvas&gt;</code> element is a powerful feature of HTML5 that allows you to draw graphics, animations, and interactive content directly on a web page using JavaScript.</p>
+        <canvas id="myCanvas" width="200" height="100" style="border:2px solid #0ecc6d;">
+    </section>
+    <article>
+        <h1>Video Element</h1>
+        <p>The <code>&lt;video&gt;</code> element in HTML5 allows you to embed video content directly into web pages without the need for third-party plugins. It supports multiple video formats and provides a consistent video playback experience across browsers.</p>
+        <video src="video.mp4" width="400px" controls>Countdown</video>
+    </article>
+    <aside>
+        <h1>Geolocation API</h1>
+        <p>HTML5's Geolocation API allows web applications to access a user's geographic location. This feature enables location-based services, such as mapping, finding nearby places, and providing personalized content based on the user's location.</p>
+        <button>Get My Location</button>
+    </aside>
+    <hr>
+    <footer>
+        <p style="text-align: center;">&copy; 2023 RNB</p>
+    </footer>
+</body>
+</html>

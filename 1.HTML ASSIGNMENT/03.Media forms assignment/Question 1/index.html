@@ -1,0 +1,41 @@
+<!-- Create an image gallery that holds multiple images -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="favicon icon" href="./src/favicon.png" type="image/x-icon">
+    <style>
+        article /* To make it flexible*/
+        {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px
+        }
+            
+        img 
+        {
+            max-width: 100%;
+            height: auto;
+            margin-left: auto; /* To make it center */
+            margin-right: auto; /* To make it center */
+        }
+        
+    </style>
+</head>
+<body>
+    <header style="text-align: center; color: brown;">
+        <h1>Image Gallery</h1>
+        <hr>
+    </header>
+    <article>
+        <img src="./src/img1.png" alt="cat">
+        <img src="./src/img2.png" alt="bulldog">
+        <img src="./src/img3.png" alt="cat">
+        <img src="./src/img4.png" alt="tiger">
+        <img src="./src/img5.png" alt="fish">
+        <img src="./src/img6.png" alt="bird">
+    </article>
+</body>
+</html>
