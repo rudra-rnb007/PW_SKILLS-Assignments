@@ -1,0 +1,19 @@
+<!-- Q2:Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using
+class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and
+explain how you've named the classes. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling with BEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p class="paragraph">This is a simple paragraph.</p><!-- This is a block -->
+    <p class="paragraph">This is an <span class="paragraph__important">important paragraph.</span></p><!-- This is an Element --><!-- Used span to write inside paragraph -->
+    <p class="paragraph paragraph--highlighted">This paragraph is highlighted.</p><!-- Block with modifier -->
+    <p class="paragraph paragraph--large">This paragraph has a larger font size.</p>
+</body>
+</html>

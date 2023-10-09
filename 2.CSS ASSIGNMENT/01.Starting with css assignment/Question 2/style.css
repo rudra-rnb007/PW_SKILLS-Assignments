@@ -1,0 +1,23 @@
+/* Base styling for all paragraphs */
+.paragraph {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Styling for important paragraphs */
+.paragraph__important {
+    font-weight: bold;
+    color: red;
+}
+
+/* Styling for highlighted paragraphs */
+.paragraph--highlighted {
+    background-color: yellow;
+    padding: 8px;
+}
+
+/* Styling for large paragraphs */
+.paragraph--large {
+    font-size: 20px;
+}

@@ -1,0 +1,56 @@
+<!-- Create a simple page with some div tags and show different ways to add CSS as well as what happens
+when you target the same elements with inline, internal, and external CSS. Also, utilize comments in the
+project where required. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"><!-- external css linked -->
+    <title>Question 1</title>
+    <style>
+        /* Internal Css linked */
+        #box
+        {
+            background-color: red; 
+            width: 200px; 
+            height: 100px;
+        }
+
+        #box3{
+            background-color: #01fc37; 
+            width: 200px; 
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: blue; width: 200px; height: 100px;"><!-- Inline Css -->
+        <b>This is a div with inline CSS.</b>
+    </div>
+
+    <div id="box">
+        <i>This is a div with internal CSS.</i>
+    </div>
+
+    <div id="box2">
+        This is a div with external CSS.
+    </div>
+    <hr>
+    <!-- Now we will target the same elements with inline, internal, and external CSS. -->
+    <div id="box3" class="box3" style="background-color: orange; width: 300px; height: 300px;">
+    We have targeted same element here
+    </div>
+
+    <div id="box3" class="box3" >
+        We have targeted same element here
+        </div>
+
+    <div class="box3">
+            We have targeted same element here
+        </div>
+<!-- SO we Found out that the inline css has high specificity, internal css has medium specificity, external css has low specificity -->
+</body>
+</html>

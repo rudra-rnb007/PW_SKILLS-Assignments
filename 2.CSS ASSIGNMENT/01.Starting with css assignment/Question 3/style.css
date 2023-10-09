@@ -1,0 +1,81 @@
+body{
+    background-image: url(./src/bg.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: auto;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/*Form styling */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(197, 197, 197, 0.507); /* Use rgba for opacity */
+    border-radius: 10px;
+    opacity: 0.9;/* Applying opacity to the whole form */   
+    
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="tele"],
+input[type="number"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+/* Radio button and checkbox styling */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+}
+
+/* Custom color palette for form elements */
+input[type="text"] {
+    background-color: #eea6a6;
+}
+
+input[type="email"] {
+    background-color: #b9f8b9;
+}
+
+input[type="tele"] {
+    background-color: #a9a9f7;
+}
+
+input[type="number"] {
+    background-color: #a6f1ef;
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+}
+
+/* Apply hover effect to the submit button */
+button[type="submit"]:hover {
+    background-color: #036408;
+}

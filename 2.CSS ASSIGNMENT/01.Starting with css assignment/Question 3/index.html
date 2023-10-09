@@ -1,0 +1,58 @@
+<!-- Q3: Develop an HTML form with various input elements. Use CSS to style the form, including setting
+background colors for input fields. Create a custom color palette for the form elements, and demonstrate
+how to apply opacity to one of the form sections. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="submitted.html" method="get">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required minlength="3" placeholder="Name">
+        
+        <label for="contact">Contact No.:</label>
+        <input type="tele" name="contact" id="contact" value="+91" required minlength="10" maxlength="13" placeholder="Mobile Number">
+        
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required minlength="5" placeholder="email@xyz.com">
+        
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" required min="1" max="120" placeholder="Age">
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male" style="display: inline;">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female" style="display: inline;">Female</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others" style="display: inline;">Others</label>
+
+        <label for="level" style="margin-top: 10px; display: block;">Level Of Development:</label>
+        <select name="level" id="level" required >
+            <option value="basic">Basic</option>
+            <option value="medium">Medium</option>
+            <option value="advanced">Advanced</option>
+        </select>
+
+        <label for="skills" style="margin-top: 10px; display: block;">Skills:</label>
+        <input type="checkbox" name="skills" id="Communication" value="Communication">
+        <label for="Communication">Communication</label>
+        <input type="checkbox" name="skills" id="Leadership" value="Leadership">
+        <label for="Leadership" >Leadership</label>
+        <input type="checkbox" name="skills" id="Problemsolving" value="Problem solving">
+        <label for="Problemsolving">Problem solving</label>
+        <input type="checkbox" name="skills" id="Creativity" value="Creativity">
+        <label for="Creativity">Creativity</label>
+        <input type="checkbox" name="skills" id="Timemanagement" value="Time management">
+        <label for="Timemanagement">Time management</label>
+        <input type="checkbox" name="skills" id="Decision-making" value="Decision-making">
+        <label for="Decision-making">Decision-making</label>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
