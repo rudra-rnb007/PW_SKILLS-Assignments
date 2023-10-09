@@ -1,0 +1,73 @@
+/* Setting Default to zero */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@600&family=Oswald:wght@500&display=swap');
+
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+/* NavBar styling */
+nav{
+    background-color: rgb(29, 28, 28);
+    color: rgb(114, 110, 110);
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    top: 0;
+    z-index: 100;
+}
+
+button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    border:2px solid #ebe07f;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color:transparent;
+}
+.navbar{
+    gap: 50px;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    margin-left: auto;
+}
+
+
+/* a styling */
+a{
+    text-decoration: none ;
+    color: #777775;
+    padding: 15px;
+}
+
+/* logo style */
+.logo img {
+    max-width: 100%; 
+    max-height: 70px; 
+}
+
+/* section styling */
+section div {
+    margin: 20px;
+}
+
+/* Hover Style */
+.navbar a:hover{
+    color: #ffffff;
+}
+
+button:hover{
+    border:2px solid #ffffff;
+    
+}
+

@@ -1,0 +1,13 @@
+Relative positioning
+--------------------
+1.Reference Point: They still occupy space in the document flow, and their final position can be adjusted using properties like top, right, bottom, and left, which are relative to the element's normal position.
+2.Document Flow: Elements with relative positioning retain their position in the document flow. Other elements on the page will be aware of their existence and may flow around them.
+3.Scrolling Behavior: Elements with relative positioning will move with the page when the user scrolls. They stay in their relative position within their containing element.
+4.Overlap and Z-Index: Elements with relative positioning can overlap other elements, but the stacking order is determined by the normal document flow unless you use the z-index property to control the stacking order.
+
+ Abosulte positioning
+--------------------
+1.Reference Point: Elements with absolute positioning are positioned relative to their nearest positioned ancestor. If no ancestor is positioned the element will be positioned relative to the initial containing block, typically the viewport. Absolute positioned elements do not occupy space in the normal document flow.
+2.Document Flow: Elements with absolute positioning are taken out of the normal document flow. Other elements on the page act as if the absolutely positioned element doesn't exist, and they don't flow around it.
+3.Scrolling Behavior: Elements with relative positioning will move with the page when the user scrolls. They stay in their relative position within their containing element.
+4.Overlap and Z-Index: Elements with absolute positioning can overlap other elements, and their stacking order is controlled by the z-index property. This allows you to precisely layer elements on top of each other.
