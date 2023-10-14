@@ -1,0 +1,8 @@
+Q: Explain the role of the following key properties in the Flexbox layout model
+
+Ans:
+1. ustify-content: Aligns items along the main axis.
+2. align-items: Aligns items along the cross-axis.
+3. gap: Sets spacing between items.
+4. flex-direction: Defines item flow direction.
+5. flex-wrap: Controls item wrapping on overflow.
