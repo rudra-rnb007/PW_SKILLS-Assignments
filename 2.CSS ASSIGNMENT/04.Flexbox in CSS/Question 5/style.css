@@ -32,15 +32,17 @@
 /* container left */
 
 #nav{
-    
     display:flex;
     justify-content: space-between;
+    /* If we want a sticky nav bar */
+    /* position: sticky;          
+    top: 0;
+    background: #F4F2FD; */
 }
 
 
     /* nav styling */
 #logo{
-    
     display: flex;
     gap: 25px;
 }
