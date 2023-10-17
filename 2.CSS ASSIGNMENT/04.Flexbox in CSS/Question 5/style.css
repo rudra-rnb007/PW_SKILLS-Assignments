@@ -225,6 +225,7 @@
     background: #FFF;
     margin-top: 50px;
     display: flex;
+    justify-content: space-around;
     padding: 20px;
     gap: 10px;
     color: #333333;
@@ -233,6 +234,7 @@
 #search1 .from-img{
     align-self: center;
     margin-top: 12px;
+    margin-right: 10px;
     display: flex;
 }
 
@@ -261,10 +263,15 @@
 #search1 .to-img{
     align-self: center;
     margin-top: 12px;
+    margin-right: 10px;
     display: flex;
 }
 
 #search1 .to .top{
+    display: flex;
+}
+
+#search1  .box1 , .box2 {
     display: flex;
 }
 
